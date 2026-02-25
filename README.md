@@ -57,12 +57,3 @@ Engineering Management • Technical Strategy • Cross‑functional Leadership 
 - Empowering teams to do the best work of their careers  
 - <3 LLMs  
 
----
-
-If you'd like, I can also generate:
-- A **banner graphic** for the top of your profile  
-- A **skills badge section**  
-- A **GitHub stats section**  
-- A more **minimal**, **playful**, or **executive‑tone** version  
-
-Just tell me the vibe you want and I’ll shape it.
