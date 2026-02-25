@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Journey to 11ty! - Hanut Singh</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .blog-header {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .blog-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+        .blog-meta {
+            color: var(--text-light);
+            font-size: 1rem;
+        }
+        .blog-content {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+        .blog-content h2 {
+            font-size: 1.75rem;
+            margin: 2rem 0 1rem;
+            color: var(--text-color);
+        }
+        .blog-content p {
+            margin-bottom: 1.5rem;
+        }
+        .blog-content a {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+        .blog-content em {
+            font-style: italic;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Hanut Singh Gusain</div>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+                <li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="../index.html#blog" class="nav-link">Blog</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="blog-post">
+        <a href="../index.html#blog" class="back-link">← Back to Blog</a>
+        
+        <header class="blog-header">
+            <h1 class="blog-title">The Journey to 11ty!</h1>
+            <div class="blog-meta">
+                <time datetime="2021-10-27">October 27, 2021</time>
+            </div>
+        </header>
+
+        <div class="blog-content">
+            <p>
+                Let's face it, I have been putting off setting up my blog and website for the longest time. 
+                I never really did much with the gaudy looking monster I created the first time anyway. 
+                So you really can't blame me for not giving it a second thought.
+            </p>
+
+            <p>
+                That being said, I started giving serious thought to redoing my website somewhere in the 
+                beginning of 2020 and had my sights firmly set on Gatsby as my go-to for building my spiffy 
+                new profile. Fast forward a few months and I was nowhere close to having anything worth 
+                uploading (No fault of the tool mind you. Gatsby is great!).
+            </p>
+
+            <p>
+                With tons of work on my plate managing several key projects for some top-tier clients and 
+                little to no free time, it was only natural that the whole thing just sat in my Github repo 
+                for another 7 months before I finally had the courage to look at it again.
+            </p>
+
+            <p>
+                During this time though, I did get my hands dirty with Hugo, a wonderful SSG built on Go. 
+                The ease and flexibility was a breath of fresh air and I was almost certainly going to build 
+                <a href="https://hanutsingh.in">this site</a> with it.
+            </p>
+
+            <p>
+                As I sat down to bootstrap my project, I ended up reading a bunch of articles on SSGs as 
+                you often do and <em>BAM</em> - @11ty/eleventy stuck out of the pile. I was skeptical at 
+                first, but given I wanted to get up and running as soon as possible (given my prior history 
+                of putting this off, every minute was precious 😂). So I fired up the ol' VS Code and after 
+                a tiny setup and couple of lines of <em>CSS</em> + some <em>.njk</em> files the whole damn 
+                thing was ready!
+            </p>
+
+            <p>
+                And that my dears is how I finally managed to get my website back online after a 3-year 
+                hiatus - with some ❤️ @11ty.
+            </p>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Hanut Singh Gusain. Built with GitHub Copilot.</p>
+        </div>
+    </footer>
+</body>
+</html>
